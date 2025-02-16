@@ -1,0 +1,105 @@
+
+main{
+    padding: 20px;
+   
+    
+}
+
+
+nav {
+    background-color: rgb(28, 28, 28);
+   justify-items: center;
+  border-radius: 5px;
+   
+
+
+
+
+   
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 12px;
+    color: white;
+    
+     
+    
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.button-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+.btn{
+   
+        flex: 1 1 calc(33.33% - 20px); /* Responsive button width */
+        max-width: 150px;
+       
+
+        padding: 10px;
+        font-size: 12px;
+        cursor: pointer;
+        border: none;
+        background-color: rgb(220, 53, 69);
+        color: white;
+        border-radius: 5px;
+}
+    button:hover {
+        background-color:rgb(136, 45, 54);
+    }
+
+.Input-Con{
+    display: flex;
+    justify-content: center;
+
+}
+.Output-Con{
+    display: flex;
+    justify-content: center;
+
+}
+.input{
+   
+    justify-content: center;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    height: auto;
+    min-height: 30px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+
+}
+.output{
+    justify-content: center;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    height: auto;
+    min-height: 30px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+
+}
+#input-No{
+    padding: 40px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+   
+}
+
